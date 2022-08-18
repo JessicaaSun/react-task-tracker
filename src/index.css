@@ -1,13 +1,65 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  /* display: flex;  don't use flex in the whole container:)*/
+  width: 500px;
+  margin: 30px;
+  overflow: auto; /**/
+  min-height: 300px;
+  border: 2px solid rgb(91, 153, 203);
+  border-top: 2px solid rgb(168, 167, 167);
+  border-right: 2px solid rgb(168, 167, 167);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(46, 181, 46);
+  color: white;
+  border-radius: 3px;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98); /*when click it will shrunk 0.02% of its original form*/
+}
+
+.taskCss {
+  background-color: #f4f4f4;
+  margin: 5px; 
+  padding: 10px 20px;
+}
+
+.delete {
+  float: right;
+  color: red;
+  cursor: pointer;
 }
