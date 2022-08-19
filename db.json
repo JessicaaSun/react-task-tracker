@@ -1,0 +1,22 @@
+{
+  "tasksState": [
+    {
+      "id": 2,
+      "text": "Meeting at School",
+      "day": "Feb 6th at 1:30pm",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Food Shopping",
+      "day": "Feb 7th at 6:00am",
+      "reminder": true
+    },
+    {
+      "text": "sleep",
+      "day": "8th aug at 5:00pm",
+      "reminder": true,
+      "id": 4
+    }
+  ]
+}
